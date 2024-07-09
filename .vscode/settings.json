@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/043d8824-58b2-484a-bf09-0fa03a90117c/resourceGroups/HackerNewsAPI20240709095503ResourceGroup/providers/Microsoft.Web/sites/hackernews-app",
+    "appService.deploySubpath": "dist\\hacker-news-app"
+}
