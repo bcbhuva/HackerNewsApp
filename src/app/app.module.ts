@@ -7,16 +7,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { MaterialModule } from '../app/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HackerNewsComponent } from './components/hacker-news/hacker-news.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HackerNewsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
     ReactiveFormsModule,
     MaterialModule,
     BrowserAnimationsModule
